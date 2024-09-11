@@ -1,13 +1,15 @@
 import { useState } from "react"
-import {Link} from "react-router-dom"
+import "./Navbar.css"
 
 export const NavBar = () => {
   return (
     <div className="nav-container">
-        <h1>Managed IT Services You can trust</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio architecto commodi illum quos obcaecati deserunt nobis atque cupiditate maiores, voluptates animi.</p>
+        <h1>Managed IT Services You  Can Trust</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio architecto commodi illum quos obcaecati deserunt nobis  animi.</p>
         <nav className="navbar">
-            <Link></Link>
+            <a href="#"> <p>GET A FREE QUOTE</p></a>
+            <a href="#"><p>LEARN MORE</p></a>
+            <a href="#"><p>LIVE CHAT</p></a>
         </nav>
     </div>
   )
