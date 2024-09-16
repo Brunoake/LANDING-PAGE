@@ -1,19 +1,23 @@
 
 .section-1{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+    width: 100%;
+    padding-top: 10rem ;
 }
 
-.section-1 h2{
+.right{
+    width: 80%;
+    padding-left: 6rem;
+}
+.right h2{
     font-size: 2rem;
     text-align: justify;
-    font-size: 100;
+    font-weight:600;
+    padding-bottom: 50px;
 }
-
-.section-1 button{
+.right button{
     width: 170px;
     background-color: #19304D;
     color: #fff;
@@ -24,10 +28,25 @@
     letter-spacing: 3px;
     opacity: .9;
     transition: .3s;
+    margin-top: 1.2rem;
 }
 
-.section-1 button:hover{
+.right button:hover{
     opacity: 1;
     width: 190px;
     padding: 20px;
+}
+
+.right p{
+    font-weight: 600;
+    color: #767676;
+}
+
+.left{
+    width: 100%;
+}
+
+.left img{
+    max-width: 100%;
+    width: 500px;
 }

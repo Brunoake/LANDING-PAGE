@@ -1,3 +1,57 @@
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('./fonts/Mona-Sans-Black.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-BlackItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-BlackNarrow.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-BlackNarrowItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-BlackWide.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-BlackWideItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-Bold.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-BoldItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-BoldNarrow.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-BoldNarrowItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-BoldWide.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-BoldWideItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-ExtraBold.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-ExtraBoldItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-ExtraBoldNarrow.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-ExtraBoldNarrowItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-ExtraBoldWide.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-ExtraBoldWideItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-Light.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-LightItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-LightNarrow.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-LightNarrowItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-LightWide.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-LightWideItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-Medium.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-MediumItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-MediumNarrow.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-MediumNarrowItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-MediumtWide.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-MediumWideItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-Regular.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-RegularItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-RegularNarrow.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-RegularNarrowItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-RegularWide.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-RegularWide.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-RegularWideItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-SemiBold.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-SemiBoldItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-SemiBoldNarrow.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-SemiBoldNarrowItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-SemiBoldWide.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-LightWide.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-SemiBoldWideItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-UltraLight.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-UltraLightItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-UltraLightNarrow.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-UltraLightNarrowItalic.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-UltraLightWide.woff') format('truetype');
+    src: url('./fonts/Mona-Sans-UltraLightWideItalic.woff') format('truetype');
+  }
+
 *{
     font-family: "Mona Sans";
     margin: 0;
