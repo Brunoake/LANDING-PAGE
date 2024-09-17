@@ -49,12 +49,18 @@
 
  .corprim{
     background-color: #FA8B44;
+    
  }
 
  .corprim i,
  .corprim h3,
  .corprim p{
     color: #fff;
+    padding: 0;
+ }
+
+ .corprim p{
+  
  }
 
  .corsecond{

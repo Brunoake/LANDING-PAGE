@@ -1,9 +1,9 @@
 import React from 'react'
-import { SlWrench } from "react-icons/sl";
-import { SlPieChart } from "react-icons/sl";
+import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
+import { RxColorWheel } from "react-icons/rx";
 import { SlGlobe } from "react-icons/sl";
 import { SlLayers } from "react-icons/sl";
-import { TfiCloud } from "react-icons/tfi";
+import { BsCloud } from "react-icons/bs";
 import { IoShieldHalf } from "react-icons/io5";
 import './Body.css'
 
@@ -14,12 +14,12 @@ const Body = () => {
 
         <div className="box-container">
             <div className="box corprim">
-                <i><SlWrench /></i>
+                <i><HiOutlineWrenchScrewdriver /></i>
                 <h3>Laptop Repair / Desktop Repair</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ipsam fugiat laboriosam quae aperiam officia aspernatur! Et eligendi </p>
             </div>
             <div className="box">
-            <i><SlPieChart/></i>
+            <i><RxColorWheel/></i>
             <h3>Virus and Spyware Removal</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ipsam fugiat laboriosam quae aperiam officia aspernatur! Et eligendi </p>
             </div>
@@ -34,7 +34,7 @@ const Body = () => {
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ipsam fugiat laboriosam quae aperiam officia aspernatur! Et eligendi </p>
                 </div>
             <div className="box corsecond">
-                <i><TfiCloud/></i>
+                <i><BsCloud/></i>
             <h3>Cloud Services</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ipsam fugiat laboriosam quae aperiam officia aspernatur! Et eligendi </p></div>
             <div className="box cortree">
