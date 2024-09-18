@@ -226,3 +226,70 @@ margin-left: 6rem;
   background-color: #6087E4;
 
 }
+
+
+/* Section 4 */
+
+.section-4{
+  margin-top: 6rem;
+}
+
+.section-4 h2{
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  padding: 200px;
+  padding-top: 70px;
+}
+
+.comments {
+  position: relative;
+  padding: 20px;
+  
+  font-style: italic;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.comments.box-color {
+  background-color: #ff7043;
+  color: #fff;
+}
+
+.comments.box-colortwo {
+  background-color: #3f51b5; 
+  color: #fff;
+}
+
+.comments .asp::before {
+  content: "“";
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.6); 
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+.comments.box-color .asp::before, 
+.comments.box-colortwo .asp::before {
+  color: rgba(255, 255, 255, 0.6); 
+}
+
+.comments .asp::before {
+  color: #ccc; 
+}
+
+.autor {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+p {
+  margin: 10px 0;
+}

@@ -79,6 +79,35 @@ const Sections = () => {
         
       </div>
       </div>
+      <div className="section-4">
+        <h2>What People Are Saying</h2>
+        <div className="box-container">
+          <div className="comments box-color">
+            <div className="asp"></div>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cupiditate molestiae eius id nobis iure saepe odio modi ipsa unde perferendis sint aperiam!</p>
+            <p className="autor">Adeline West</p>
+            <p>Divi corner</p>
+          </div>
+          <div className="comments">
+          <div className="asp"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cupiditate molestiae eius id nobis iure saepe odio modi ipsa unde perferendis sint aperiam!</p>
+            <p className="autor">Teresa Reeves</p>
+            <p>Extra Space</p>
+          </div>
+          <div className="comments">
+          <div className="asp"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cupiditate molestiae eius id nobis iure saepe odio modi ipsa unde perferendis sint aperiam!</p>
+            <p className="autor">Rachel Graham</p>
+            <p>Bloom Co</p>
+          </div>
+          <div className="comments box-colortwo">
+          <div className="asp"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cupiditate molestiae eius id nobis iure saepe odio modi ipsa unde perferendis sint aperiam!</p>
+            <p className="autor">Ada Leonard</p>
+            <p>Monarch Inc</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
