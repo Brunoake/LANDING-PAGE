@@ -72,15 +72,17 @@
     max-width: 40%;
   }
   
-  .text h1 {
+  .text h2 {
     font-size: 2.5rem;
     line-height: 1.2;
     margin-bottom: 20px;
+    font-weight: 400;
   }
   
   .text p {
     font-size: 1rem;
     margin-bottom: 20px;
+   font-weight: lighter;
   }
 
   .btn {
@@ -92,6 +94,8 @@
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    letter-spacing: 2px;
+    font-weight: 300px;
   }
 
   .btn:hover {
@@ -116,13 +120,13 @@
     position: absolute;
     font-size: 35px;
     color: white;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition:  0.3s ;
 
   }
 
   .icon-container:hover {
-    transform: scale(1);
-    filter: brightness(#fff);
+    font-size: 40px;
+    filter: drop-shadow(1px 1px 2px #cdcadc);
   }
   
   /* Posições dos ícones ao longo do círculo */
@@ -138,3 +142,87 @@
   .position-10 { top: 50%; left: 30%; transform: translate(-50%, -50%); }
   .position-11 { top: 50%; right: 30%; transform: translate(-50%, -50%); }
   
+
+  /* terceira section */
+  .section-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+    background-color: #f4f4f4;
+  }
+  
+
+  .info-container{
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  color: #333;
+  }
+
+  .info-container h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .info-container p{
+    font-size: .9rem;
+    color: #666;
+    text-align: justify;
+    margin-right: 20px;
+  }
+
+
+  .btn-container{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    gap: 20px;
+  }
+
+
+ 
+.btnn{
+  width: 300px;
+  height: 120px;
+  margin: 10px;
+ border-radius: 60px; 
+ color: #fff;
+ font-size: 1rem;
+ border: none;
+ cursor: pointer;
+ text-align: center;
+}
+
+.btnn > i{
+  font-size: 1.6rem;
+  display: block;
+  }
+
+.secure{
+background-color: #3B62E4;
+text-align: center;
+margin: auto;
+}
+
+.repair{
+background-color: #D2D2D2;
+}
+
+.support{
+background-color: #FA8B44;
+}
+
+.connect{
+background-color: #19304D;
+margin-left: 6rem;
+}
+
+.monitor{
+  background-color: #6087E4;
+
+}

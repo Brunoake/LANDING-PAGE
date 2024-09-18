@@ -49,7 +49,36 @@ const Sections = () => {
           </div>
         </div>
       </div>
-
+      <div className="section-3">
+      <div className="info-container">
+       <h2> five Spheres. One Mission</h2>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti numquam voluptas doloremque rerum tempore, eaque minima voluptatibus quibusdam ratione neque.</p>
+      </div>
+      <div className="bnt-container">
+      
+        <button className="btnn secure">
+          <i><CiLock/></i>
+          SECURE
+        </button>
+        <button className="btnn repair">
+          <i><HiOutlineWrenchScrewdriver/></i>
+          REPAIR
+        </button>
+        <button className="btnn support">
+          <i><RxColorWheel/></i>
+          SUPPORT
+        </button>
+        <button className="btnn connect">
+       <i> <BsCloud/></i>
+        CONNECT
+        </button>
+        <button className="btnn monitor">
+      <i>   <LuBarChart2/></i>
+        MONITOR
+        </button>
+        
+      </div>
+      </div>
     </div>
   )
 }
