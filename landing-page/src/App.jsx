@@ -2,6 +2,7 @@ import './App.css';
 import { NavBar } from './components/NavBar';
 import Body from './components/Body';
 import Sections from './components/Sections';
+import Footer from './components/Footer';
 
 function App() {
 
