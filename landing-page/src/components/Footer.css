@@ -42,5 +42,108 @@ font-weight: 500;
       
   }
   form{
-    
+   display: flex;
+   flex-direction: column; 
+    gap: 20px;
+    border-radius: 5px;
   }
+  form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+
+  .input-group{
+    position: relative;
+  }
+
+  .input{
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    outline: none;
+    color: #fff;
+  }
+
+  .placeholder{
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    font-size: 14px;
+    padding:  5px;
+    color: #fff;
+    transition: .3s;
+    pointer-events: none;
+}
+
+.input:focus + .placeholder{
+    top: -12px;
+    background-color: transparent;
+}
+
+.input-group{
+    width: 400px;
+}
+
+form textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 400px;
+    height: 140px;
+    color: #fff;
+}
+
+form textarea::placeholder{
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+form button{
+    width: 220px;
+    border: none;
+    border-radius: 16px;
+    padding: 10px;
+    background-color: #FBA933;
+    cursor: pointer;
+    color: #FFF;
+    transition: .3s;
+}
+
+form button:hover{
+  background-color: #FF6F00;
+}
+
+.infos{
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  width: 30%;
+  position: relative;
+  top: -370px;
+  left: -460px;
+  gap: 10px;
+  color: #fff;
+}
+
+.infos h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+.infos i{
+  color: #FBA933;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+.infos p{
+font-weight: 300;
+width: 50%;
+}
+
+.footer-container h4{
+  color: #fff;
+  font-weight: 400;
+}
