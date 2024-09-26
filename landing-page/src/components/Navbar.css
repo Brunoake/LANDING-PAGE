@@ -60,3 +60,22 @@
     
 }
 
+@media screen and (max-width: 800px) {
+    .nav-container h1{
+        font-size: 2.2rem;
+        max-width: 100%;
+    }
+    .nav-container p{
+        font-weight: 400;
+    }
+    .navbar{
+        top: 110px;
+        gap: 2rem;
+    }
+    .navbar a{
+        padding: 10px;
+    }
+    .navbar a > p{
+        font-size: .7rem;
+    }
+}

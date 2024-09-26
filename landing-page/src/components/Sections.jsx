@@ -27,6 +27,7 @@ const Sections = () => {
         
         </div>
 
+
       <div className="section-2">
         <div className="text">
           <h2>We Create Fully Connected Systems So You Can Focus On Your Business</h2>
@@ -49,6 +50,8 @@ const Sections = () => {
           </div>
         </div>
       </div>
+
+
       <div className="section-3">
       <div className="info-container">
        <h2> five Spheres. One Mission</h2>
@@ -79,6 +82,8 @@ const Sections = () => {
         
       </div>
       </div>
+
+
       <div className="section-4">
         <h2>What People Are Saying</h2>
         <div className="box-container">
